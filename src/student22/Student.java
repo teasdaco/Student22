@@ -11,6 +11,7 @@ public class Student
 {
     private int studentNum;
     private String studentName;
+    private String address;
 
     public Student(int studentNum, String studentName) 
     {
@@ -21,6 +22,14 @@ public class Student
     public int getStudentNum() 
     {
         return studentNum;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public void setStudentNum(int studentNum) {
