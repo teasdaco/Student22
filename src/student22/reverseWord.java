@@ -16,8 +16,7 @@ public class reverseWord
         Scanner input = new Scanner(System.in);
         String word = input.nextLine();
         
-        //test
-        
+
         char [] myWord = new char [word.length()];
         for(int i = 0; i < word.length(); i++ )
         {
